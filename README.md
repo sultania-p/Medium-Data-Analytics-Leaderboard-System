@@ -94,12 +94,15 @@ Overall, the architecture diagram for this system highlights the key tools and c
 This project leverages the capability of draw.io and arrow.app to design, visualize, and manage data model and metadata for the Neo4j graph database. Below is the data model for the Neo4j Medium database.
 
 <p align="center">  
-    <br>
+  <br>
 	<a href="#">
-        <img height=100 src="img/neo4j_datamodel.png" alt="Neo4j Graph Data Model" title="Neo4j Graph Data Model" hspace=80> 
+        <img src="img/neo4j_datamodel.png"> 
+  </a>		
     <br>
+	Figure 2 : Medium Stories Neo4j Graph Data Model
 </p>
 <br>
+
 	
 ## Data Integration / ETL Pipeline
 
@@ -108,11 +111,71 @@ In this project, data is analysed, profiled, transformed and loaded into Neo4j g
 The cleaned and transformed data is then ingested into Neo4j to be used further for visualizations and analytics for data driven decisions.
 
 <p align="center">  
-    <br>
+  <br>
 	<a href="#">
-        <img height=100 src="img/neo4j_database.png" alt="Neo4j Graph Database" title="Neo4j Graph Database" hspace=80> 
+        <img src="img/neo4j_database.png"> 
+  </a>		
     <br>
+	Figure 3 : Medium Stories Neo4j Graph Database
 </p>
 <br>
 
-The ETL process involved 2 layer of data landing, transformation and loading.
+## BI Reporting and Analytics
+
+The BI reporting solution leverages the power of Seaborn and Matplotlib to create visually appealing and informative reports. The data was srouced from a Neo4j database, which provides with the ability to extract complex and interconnected data sets. By using Seaborn and Matplotlib, I was able to present the data in a way that is easy to understand and provides valuable insights for my clients. My solution is designed to help organizations make data-driven decisions and optimize their operations. Some of the snapshots of the reports and dashboards are attached below:
+
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="Documents/Visualizations/F1_Dashboard.png">
+  </a>		
+    <br>
+	Figure 4 : Medium Stories Dashboard - 1
+</p>
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="Documents/Visualizations/F2_Dashboard.png">
+  </a>		
+    <br>
+	Figure 5 : Medium Stories Dashboard - 2
+</p>
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="Documents/Visualizations/G1_Total Claps vs Image.png">
+  </a>		
+    <br>
+	Figure 6 : Medium Stories Report - Total Claps vs Image
+</p>
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="Documents/Visualizations/G7_Total number of articles by publication.png">
+  </a>		
+    <br>
+	Figure 7 : Medium Stories Report - Total Articles by Publications
+</p>
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="Documents/Visualizations/G10_QOQ Analysis of Published Articles.png">
+  </a>		
+    <br>
+	Figure 8 : Medium Stories Report - QOQ Analysis of Published Articles
+</p>
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="Documents/Visualizations/G9_Number of Claps vs Reading time of the article.png">
+  </a>		
+    <br>
+	Figure 9 : Medium Stories Report - Claps Volume vs Reading Time Per article
+</p>
+<br>
