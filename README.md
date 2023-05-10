@@ -1,1 +1,1 @@
-# Medium-Data-Analytics-Leaderboard-System
+# Medium Data Analytics Leaderboard System
